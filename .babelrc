@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": 76,
+          "browsers": ["last 2 versions", "safari 7", "ie 9"]
+        },
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ]
+}
